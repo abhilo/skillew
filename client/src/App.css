@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
   * {
@@ -280,26 +279,31 @@
   .shad-button_ghost {
     @apply flex gap-4 items-center justify-start hover:bg-transparent hover:text-white !important;
   }
-} 
+}
 
-
-html, body {margin: 0; height: 100vh; overflow: hidden  }
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
 
 #landingbuttons {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-
 
 #landingstarted {
   text-align: center;
-
 }
 
 #holder {
   position: absolute;
   top: 40%;
+}
 
+.supage {
+  position: absolute;
+  top: 20%;
 }
